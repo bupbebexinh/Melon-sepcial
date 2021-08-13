@@ -9,6 +9,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -18,6 +19,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -27,6 +29,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -36,6 +39,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -45,6 +49,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -54,6 +59,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -63,6 +69,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -72,6 +79,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -81,6 +89,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -90,6 +99,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -99,6 +109,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -108,6 +119,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -117,6 +129,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -126,6 +139,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -135,6 +149,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
   {
     id: uuidv4(),
@@ -144,6 +159,7 @@ const data = [
     type: 'Mango',
     category: 'Fruit',
     price: 25,
+    rate: 4.5,
   },
 ]
 

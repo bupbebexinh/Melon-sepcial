@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <>
     <PageTitle key="Contact Us" title={'Contact Us'} />
-    <section class="h-screen">
-      form contact
+    <section className="pb-5">
+      <div className="container mx-auto">form contact</div>
     </section>
     </>
   )

@@ -9,6 +9,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -18,6 +19,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -27,6 +29,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -36,6 +39,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -45,6 +49,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -54,6 +59,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -63,6 +69,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -72,6 +79,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -81,6 +89,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -90,6 +99,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -99,6 +109,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -108,6 +119,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -117,6 +129,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -126,6 +139,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -135,6 +149,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -144,6 +159,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -153,6 +169,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -162,6 +179,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -171,6 +189,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -180,6 +199,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -189,6 +209,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -198,6 +219,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -207,6 +229,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -216,6 +239,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -225,6 +249,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
   {
     id: uuidv4(),
@@ -234,6 +259,7 @@ const data = [
     type: 'Soil, Chemistry',
     category: 'Agriculture',
     price: 99.99,
+    rate: 3.5,
   },
 ]
 

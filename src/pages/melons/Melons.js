@@ -1,18 +1,18 @@
 import React from 'react'
-import data from '../../data/lychees'
+import data from '../../data/melons'
 import PageTitle from '../../components/PageTitle'
 import ProductWrap from '../../components/ProductWrap'
 
-const Lychees = () => {
+const Melons = () => {
   // eslint-disable-next-line
   const [items, setItems] = React.useState(data)
 
   return (
     <>
-      <PageTitle key="Lychees" title={'Lychees'} />
-      <ProductWrap items={items} key="wrap-Chemistry" />
+      <PageTitle key="Melons" title={'Melons'} />
+      <ProductWrap items={items} key="wrap-melons" />
     </>
   )
 }
 
-export default Lychees
+export default Melons
