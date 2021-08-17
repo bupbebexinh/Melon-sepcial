@@ -14,33 +14,32 @@ const Products = () => {
 
   return (
     <>
-      <h1 className="absolute w-0 h-0 hidden">Melon Special</h1>
-      <h2 className="px-5 mt-5 font-bold text-2xl text-yellow-600">Melons</h2>
-      <section className="p-5 grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:px-10">
+      <h2 className="px-5 mt-5 font-bold text-2xl text-blue-600">Melons</h2>
+      <section className="p-5 grid gap-2 lg:gap-5 grid-cols-2 md:grid-cols-4 2xl:px-10">
         {itemsMelon.slice(0, 4).map((item) => {
           return (
             <ProductItem item={item} key={item.id} />
           )
         })}
       </section>
-      <h2 className="px-5 mt-5 font-bold text-2xl text-yellow-600">Mangos</h2>
-      <section className="p-5 grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:px-10">
+      <h2 className="px-5 mt-5 font-bold text-2xl text-blue-600">Mangos</h2>
+      <section className="p-5 grid gap-2 lg:gap-5 grid-cols-2 md:grid-cols-4 2xl:px-10">
         {itemsMango.slice(0, 4).map((item) => {
           return (
             <ProductItem item={item} key={item.id} />
           )
         })}
       </section>
-      <h2 className="px-5 mt-5 font-bold text-2xl text-yellow-600">Lychee</h2>
-      <section className="p-5 grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:px-10">
+      <h2 className="px-5 mt-5 font-bold text-2xl text-blue-600">Lychee</h2>
+      <section className="p-5 grid gap-2 lg:gap-5 grid-cols-2 md:grid-cols-4 2xl:px-10">
         {itemsLychee.slice(0, 4).map((item) => {
           return (
             <ProductItem item={item} key={item.id} />
           )
         })}
       </section>
-      <h2 className="px-5 mt-5 font-bold text-2xl text-yellow-600">Chemistry</h2>
-      <section className="p-5 grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:px-10">
+      <h2 className="px-5 mt-5 font-bold text-2xl text-blue-600">Chemistry</h2>
+      <section className="p-5 grid gap-2 lg:gap-5 grid-cols-2 md:grid-cols-4 2xl:px-10">
         {itemsChemistry.slice(0, 4).map((item) => {
           return (
             <ProductItem item={item} key={item.id} />
