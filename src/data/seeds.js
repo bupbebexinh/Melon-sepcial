@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid'
 
 const data = [
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-1.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -12,7 +12,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-2.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -22,7 +22,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-3.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -32,7 +32,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-4.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -42,7 +42,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-5.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -52,7 +52,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-6.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -62,7 +62,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-7.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -72,7 +72,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-8.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -82,7 +82,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-9.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -92,7 +92,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-10.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -102,7 +102,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-11.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -112,7 +112,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-12.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -122,7 +122,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-13.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -132,7 +132,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-14.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -142,7 +142,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-15.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -152,7 +152,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-16.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -162,7 +162,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-17.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -172,7 +172,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-18.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -182,7 +182,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-19.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -192,7 +192,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-20.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -202,7 +202,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-21.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -212,7 +212,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-22.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -222,7 +222,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-23.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -232,7 +232,7 @@ const data = [
     rate: 3,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__seed',
     image: './images/seeds/seed-24.jpg',
     title: 'Melon Seeds',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',

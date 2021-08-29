@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid'
 
 const data = [
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-1.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -12,7 +12,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-2.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -22,7 +22,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-3.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -32,7 +32,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-4.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -42,7 +42,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-5.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -52,7 +52,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-6.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -62,7 +62,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-7.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -72,7 +72,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-8.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -82,7 +82,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-9.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -92,7 +92,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-10.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -102,7 +102,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-11.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -112,7 +112,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-12.jpeg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -122,7 +122,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-13.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -132,7 +132,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-14.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -142,7 +142,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-15.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -152,7 +152,7 @@ const data = [
     rate: 4,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__lychee',
     image: './images/lychees/lychee-16.jpg',
     title: 'Lychee Lorem ipsun dolor.',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',

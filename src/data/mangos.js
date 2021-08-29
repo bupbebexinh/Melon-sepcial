@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid'
 
 const data = [
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-1.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -12,7 +12,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-2.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -22,7 +22,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-3.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -32,7 +32,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-4.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -42,7 +42,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-5.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -52,7 +52,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-6.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -62,7 +62,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-7.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -72,7 +72,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-8.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -82,7 +82,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-9.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -92,7 +92,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-10.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -102,7 +102,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-11.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -112,7 +112,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-12.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -122,7 +122,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-13.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -132,7 +132,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-14.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -142,7 +142,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-15.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -152,7 +152,7 @@ const data = [
     rate: 4.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__mango',
     image: './images/mangos/mango-16.jpg',
     title: 'Fruit Mango Asia',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',

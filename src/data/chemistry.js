@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid'
 
 const data = [
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/1.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -12,7 +12,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/2.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -22,7 +22,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/3.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -32,7 +32,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/4.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -42,7 +42,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/5.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -52,7 +52,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/6.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -62,7 +62,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/7.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -72,7 +72,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/8.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -82,7 +82,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/9.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -92,7 +92,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/10.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -102,7 +102,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/11.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -112,7 +112,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/12.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -122,7 +122,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/13.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -132,7 +132,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/14.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -142,7 +142,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/15.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -152,7 +152,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/16.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -162,7 +162,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/17.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -172,7 +172,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/18.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -182,7 +182,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/19.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -192,7 +192,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/20.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -202,7 +202,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/21.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -212,7 +212,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/22.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -222,7 +222,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/23.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -232,7 +232,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/24.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -242,7 +242,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/25.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -252,7 +252,7 @@ const data = [
     rate: 3.5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__chemistry',
     image: './images/chemistry/26.jpg',
     title: 'Chemistry for Vegatable and Fruit',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',

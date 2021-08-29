@@ -2,9 +2,9 @@ import { v4 as uuidv4 } from 'uuid'
 
 const data = [
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-1.jpg',
-    title: 'Sunny Melon',
+    title: 'Red Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -12,9 +12,9 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-2.jpg',
-    title: 'Sunny Melon',
+    title: 'Red Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -22,9 +22,9 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-3.jpg',
-    title: 'Sunny Melon',
+    title: 'Red Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -32,9 +32,9 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-4.jpg',
-    title: 'Sunny Melon',
+    title: 'Green Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -42,9 +42,9 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-5.jpg',
-    title: 'Sunny Melon',
+    title: 'Green Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -52,9 +52,9 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-6.jpg',
-    title: 'Sunny Melon',
+    title: 'Green Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -62,9 +62,9 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-7.jpg',
-    title: 'Sunny Melon',
+    title: 'Orange Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -72,9 +72,9 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-8.jpg',
-    title: 'Sunny Melon',
+    title: 'Orange Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -82,9 +82,9 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-9.jpg',
-    title: 'Sunny Melon',
+    title: 'Orange Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -92,9 +92,9 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-10.jpg',
-    title: 'Sunny Melon',
+    title: 'Orange Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
     type: 'Melon',
     category: 'Fruit',
@@ -102,7 +102,7 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-11.jpg',
     title: 'Sunny Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -112,7 +112,7 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-12.jpg',
     title: 'Sunny Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -122,7 +122,7 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-13.jpg',
     title: 'Sunny Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -132,7 +132,7 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-14.jpg',
     title: 'Sunny Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -142,7 +142,7 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-15.jpg',
     title: 'Sunny Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
@@ -152,7 +152,7 @@ const data = [
     rate: 5,
   },
   {
-    id: uuidv4(),
+    id: uuidv4() + '__melon',
     image: './images/melons/melon-16.jpg',
     title: 'Sunny Melon',
     desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
