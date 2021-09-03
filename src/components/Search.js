@@ -24,46 +24,38 @@ const Search = (props) => {
     }
   );
 
-  // console.log(filteredProducts);
-  
-  // if(searchField===""){
-  //   setSearchShow(false);
-  // }
-  // else {
-  //   setSearchShow(true);
-  // }
-  // console.log(searchShow, searchField);
+  //search
+  // const [isNoData, setIsNoData] = useState();
 
-  // const handleChange = e => {
-  //   setSearchField(e.target.value);
-  //   if(e.target.value===""){
-  //     setSearchShow(false);
-  //   }
-  //   else {
-  //     setSearchShow(true);
-  //   }
-  // };
+  // const noData = () => {
+  //   setIsNoData(!filteredProducts.length)
+  // }
+  // console.log(isNoData, !filteredProducts.length);
 
   function searchList() {
     if (searchField !== "") {
-      return (
-        <Scroll>
-          <SearchList filteredProducts={filteredProducts} />
-        </Scroll>
-      );
+      if (!filteredProducts.length) {
+        return (
+          <div className="text-center my-40">
+            <span className="inline-block"><svg className="w-20 h-20" fill="none" stroke="rgb(37,99,235)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></span>
+            <p className="text-2xl text-blue-600">No results found</p>
+          </div>
+        );
+      } else {
+        return (
+          <Scroll>
+            <SearchList filteredProducts={filteredProducts} />
+          </Scroll>
+        );
+      }
     }
   }
 
   return (
     <div className="pb-10">
       <PageTitle key="Search" title={'Search'} />
-      {/* <div className="pa2">
-        <input 
-          className="text-black md:w-3/6 block"
-          type = "search" 
-          placeholder = "Search People" 
-          onChange = {handleChange}
-        />
+      {/* <div>
+        {noData()}
       </div> */}
       {searchList()}
     </div>

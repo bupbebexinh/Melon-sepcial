@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 const DropdownNav = ({isOpen, toggle}) => {
   return (
     <>
-      <nav className={isOpen ? 'grid grid-rows text-center items-center bg-blue-800 fixed w-full top-16 z-50 text-white' : 'hidden'} onClick={toggle}>
+      <nav className={isOpen ? 'grid grid-rows text-center items-center w-full top-16 z-50 text-white' : 'hidden'} onClick={toggle}>
         <ul className="py-4">
           <li className="mx-2 tracking-widest uppercase font-bold">
             <NavLink to="/melons" className="block py-1 transition-colors hover:text-yellow-300">

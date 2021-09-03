@@ -7,7 +7,7 @@ const ProductItem = (e) => {
 
   return (
     <>
-      <div className="product-item bg-gray-200 rounded-lg">
+      <div className="product-item bg-gray-200 shadow-md md:shadow-lg rounded-lg">
         <div className='product-item__top h-0 relative rounded-t overflow-hidden'>
           <div className="absolute -inset-0"><img src={image} alt={title} className="rounded-t-lg w-full h-full object-cover" /></div>
         </div>
@@ -21,7 +21,7 @@ const ProductItem = (e) => {
               <BsHeart title="Add to Wishlist" className="cursor-pointer text-pink-600" />
             </div>
           </div>
-          <div className="my-2">
+          <div className="my-2 font-num">
             <small className="bg-yellow-500 text-xs md:text-sm rounded-full px-2 text-white tracking-widest mr-3 inline-block">
               {category}
             </small>
@@ -29,7 +29,7 @@ const ProductItem = (e) => {
               {type}
             </small>
           </div>
-          <div className="flex items-center justify-between pb-6">
+          <div className="flex items-center justify-between pb-6 font-num">
             <p className="text-lg text-md xl:text-xl text-red-600">$ {price}</p>
             <div>
               <StarRatings rating={rate} starDimension="12px" starSpacing="1px" starRatedColor="rgb(220,38,38)" />

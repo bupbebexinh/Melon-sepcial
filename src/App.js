@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import {NavLink} from 'react-router-dom';
-// import { Input } from 'antd'
+// import "@material-tailwind/react/tailwind.css";
 import Header from './components/Header'
 import Products from './pages/home/Products'
 import Melons from './pages/melons/Melons'
@@ -38,8 +37,8 @@ const App = () => {
   //search
   const [keyword, setKeyword] = useState('');
 
-  function handleInputChange(e) {
-    setKeyword(e.target.value)
+  const keywordValue = (e) => {
+    setKeyword(e);
   }
 
   const clearSearch = () => {
@@ -48,24 +47,9 @@ const App = () => {
 
   return (
     <Router>
-      <Header isOpen={isOpen} toggle={toggle} />
-      <DropdownNav isOpen={isOpen} toggle={toggle} />
-      <div className="px-5 h-11 top-16 bg-blue-800 leading-none text-white shadow-sm fixed z-50 w-full flex justify-center">
-        <div className="relative md:w-3/6 block h-10 flex-grow md:flex-grow-0">
-          <input type = "search" className="px-3 text-black w-full block h-10" 
-            placeholder="Search by product" 
-            value={keyword}
-            onChange={handleInputChange}
-            // onSearch={handleSearch}
-            // enterButton
-          />
-          <span className={keyword ? 'h-10 px-3 cursor-pointer flex justify-center items-center absolute top-0 right-0' : 'hidden' } onClick={clearSearch}>
-            <svg className="w-6 h-6" fill="none" stroke="#000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
-          </span>
-        </div>
-        <NavLink to="/search" className={keyword ? 'w-20 h-10 flex justify-center items-center text-black bg-yellow-400' : 'w-20 h-10 flex justify-center items-center text-black pointer-events-none bg-gray-400'}>
-          Search
-        </NavLink>
+      <div className="bg-gradient-to-r from-blue-600 to-blue-300 fixed z-50 w-full text-white shadow-lg">
+        <Header isOpen={isOpen} toggle={toggle} keyword={keyword} keywordValue={keywordValue} clearSearch={clearSearch} />
+        <DropdownNav isOpen={isOpen} toggle={toggle} />
       </div>
 
       <main className="pt-28">
