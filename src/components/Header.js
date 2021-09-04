@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { NavLink } from 'react-router-dom'
 import ModalLogin from './ModalLogin';
 import ModalRegist from './ModalRegist';
+import MypageDropdown from './mypage/MypageDropdown';
 
 const Header = ( {isOpen, toggle, keyword, keywordValue, clearSearch} ) => {
   const icon = !isOpen ? <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg> : 
@@ -23,7 +24,8 @@ const Header = ( {isOpen, toggle, keyword, keywordValue, clearSearch} ) => {
       return (
         <ul className="flex items-end text-xs font-sans">
           <li className="mr-4">
-            My page
+            My Page
+            {/* <MypageDropdown /> */}
           </li>
           <li>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
@@ -89,7 +91,7 @@ const Header = ( {isOpen, toggle, keyword, keywordValue, clearSearch} ) => {
         <h1 className="hidden md:block"><NavLink to='/' className='flex items-center font-extrabold text-white no-underline hover:text-white hover:no-underline text-xl'>Melon Special</NavLink></h1>
         <div className="w-full md:w-3/5 leading-none text-white flex justify-center">
           <div className="relative block h-10 flex-grow">
-            <input autoComplete="on" type= "search" className="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600 px-3 text-base" 
+            <input autoComplete="on" type= "search" className="form-ipt" 
               placeholder="Search by product" 
               value={keyword}
               onChange={handleInputChange}
