@@ -14,9 +14,9 @@ const Header = ( {isOpen, toggle, keyword, keywordValue, clearSearch} ) => {
           <li className="mr-4">
             <ModalLogin setLogin={setLogin} />
           </li>
-          <li>
+          {/* <li>
             <ModalRegist />
-          </li>
+          </li> */}
         </ul>
       )
     } else {
@@ -89,7 +89,7 @@ const Header = ( {isOpen, toggle, keyword, keywordValue, clearSearch} ) => {
         <h1 className="hidden md:block"><NavLink to='/' className='flex items-center font-extrabold text-white no-underline hover:text-white hover:no-underline text-xl'>Melon Special</NavLink></h1>
         <div className="w-full md:w-3/5 leading-none text-white flex justify-center">
           <div className="relative block h-10 flex-grow">
-            <input autoComplete="on" type= "search" className="form-ipt" 
+            <input autoComplete="on" type= "search" className="placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:border-blue-600 px-3 text-base" 
               placeholder="Search by product" 
               value={keyword}
               onChange={handleInputChange}
